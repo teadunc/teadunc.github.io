@@ -1,0 +1,35 @@
+/* Main page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 30px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Tutorial steps */
+.step {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* Screenshots */
+img {
+    width: 500px;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+/* Video */
+iframe {
+    display: block;
+    margin: 20px auto;
+}
