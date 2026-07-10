@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math Test Form</title>
+</head>
+
+<body>
+
+<h1>Math Test</h1>
+
+<!-- start of test -->
+
+<form>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <h2>Multiple Choice Questions</h2>
+
+    <p>1. What is 5 + 7?</p>
+    <input type="radio" name="question1" value="10"> 10<br>
+    <input type="radio" name="question1" value="12"> 12<br>
+    <input type="radio" name="question1" value="14"> 14<br>
+
+    <p>2. What is 9 × 3?</p>
+    <input type="radio" name="question2" value="18"> 18<br>
+    <input type="radio" name="question2" value="27"> 27<br>
+    <input type="radio" name="question2" value="36"> 36<br>
+
+    <p>3. What is 20 ÷ 4?</p>
+    <input type="radio" name="question3" value="4"> 4<br>
+    <input type="radio" name="question3" value="5"> 5<br>
+    <input type="radio" name="question3" value="6"> 6<br>
+
+    <h2>Word Problem</h2>
+
+    <p>
+        Sarah has 5 bags of apples. Each bag contains 8 apples.
+        How many apples does Sarah have altogether? Explain your answer.
+    </p>
+
+    <textarea rows="5" cols="40" name="wordproblem"></textarea>
+
+    <h2>Math Symbols</h2>
+
+    <p>
+        Addition: &plus;<br>
+        Multiplication: &times;<br>
+        Division: &divide;
+    </p>
+
+    <input type="submit" value="Submit Test">
+<!-- end of test -->
+</form>
+</body>
+</html>
