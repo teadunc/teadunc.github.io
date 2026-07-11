@@ -1,0 +1,205 @@
+/* General Page Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f8f3;
+}
+
+
+/* Header and Navigation */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1b5e20;
+}
+
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+section {
+    background-color: white;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+
+h2 {
+    color: #2e7d32;
+}
+
+
+/* Hero Section */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.hero-text a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+
+    background-color: #388e3c;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 5px;
+
+    transition: background-color 0.3s ease;
+}
+
+
+.hero-text a:hover {
+    background-color: #1b5e20;
+}
+
+
+/* Lists */
+ul {
+    padding-left: 30px;
+}
+
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+
+th {
+    background-color: #2e7d32;
+    color: white;
+}
+
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f1f8e9;
+}
+
+
+/* Footer */
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+footer a {
+    color: #c8e6c9;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+
+    table {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+/* Print Version */
+@media print {
+
+    nav,
+    footer,
+    .hero-text a {
+        display: none;
+    }
+
+
+    body {
+        background-color: white;
+        color: black;
+    }
+
+
+    section {
+        box-shadow: none;
+    }
+}
