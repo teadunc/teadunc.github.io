@@ -203,3 +203,38 @@ footer a {
         box-shadow: none;
     }
 }
+/* About Page Styles */
+
+.about-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.team-grid article {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #2e7d32;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
