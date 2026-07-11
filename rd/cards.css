@@ -1,0 +1,71 @@
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+/* Title animation when page opens */
+.title {
+    animation: dropIn 1s ease;
+}
+
+@keyframes dropIn {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* Card layout */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* Flashcards */
+.card {
+    width: 250px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* Question */
+.question {
+    padding: 50px 10px;
+}
+
+
+/* Hidden answer */
+.answer {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Reveal answer */
+.card:hover .answer {
+    transform: translateY(0);
+}
