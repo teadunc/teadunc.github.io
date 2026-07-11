@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Green Earth Community Cleanup | Volunteer Organization</title>
+
+    <meta name="description" content="Green Earth Community Cleanup brings volunteers together to improve parks, neighborhoods, and local environments through community service.">
+
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Green Earth Community Cleanup</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="volunteer.html">Get Involved</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+            <img src="images/community-cleanup.jpg" 
+                 alt="Volunteers cleaning a local park together">
+
+            <div class="hero-text">
+                <h2>Making Our Community Cleaner and Greener</h2>
+
+                <p>
+                    Green Earth Community Cleanup brings neighbors together 
+                    to protect the environment and create cleaner public spaces.
+                </p>
+
+                <a href="volunteer.html">Join Our Team</a>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Our Mission</h2>
+
+            <p>
+                Our mission is to encourage community involvement through
+                environmental projects, neighborhood cleanups, and volunteer
+                opportunities. Together, we can create a healthier environment
+                for everyone.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>What We Do</h2>
+
+            <ul>
+                <li>
+                    Park cleanups
+                    <ul>
+                        <li>Trash removal</li>
+                        <li>Planting flowers and trees</li>
+                    </ul>
+                </li>
+
+                <li>Community recycling events</li>
+                <li>Environmental education programs</li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h2>Upcoming Highlight</h2>
+
+            <table>
+                <tr>
+                    <th>Event</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                </tr>
+
+                <tr>
+                    <td>Spring Park Cleanup</td>
+                    <td>April 20</td>
+                    <td>Riverside Park</td>
+                </tr>
+
+                <tr>
+                    <td>Neighborhood Recycling Day</td>
+                    <td>May 15</td>
+                    <td>Community Center</td>
+                </tr>
+            </table>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Green Earth Community Cleanup</p>
+
+        <p>
+            Contact us:
+            <a href="mailto:info@greenearthcleanup.org">
+                info@greenearthcleanup.org
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
