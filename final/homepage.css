@@ -342,3 +342,78 @@ button:hover {
     }
 
 }
+/* Gallery Page Styles */
+
+.gallery-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+}
+
+
+
+.gallery-grid figure {
+
+    margin: 0;
+
+    background-color: #f1f8e9;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+}
+
+
+
+.gallery-grid img {
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 8px;
+
+}
+
+
+
+figcaption {
+
+    margin-top: 10px;
+
+    font-weight: bold;
+
+    color: #2e7d32;
+
+}
+
+
+
+video {
+
+    border-radius: 10px;
+
+    margin-top: 15px;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .gallery-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+}
